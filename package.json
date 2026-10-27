@@ -1,0 +1,47 @@
+{
+  "name": "@capquang26/env-guard",
+  "version": "1.0.0",
+  "description": "Zero-dependency CLI to verify environment variable parity against .env.example",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "env-guard": "./bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "start": "node ./bin/cli.js"
+  },
+  "keywords": [
+    "env",
+    "dotenv",
+    "environment",
+    "diff",
+    "parity",
+    "cli",
+    "zero-dependency"
+  ],
+  "author": "capquang26",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quangcaptain26-3/env-guard.git"
+  },
+  "homepage": "https://github.com/quangcaptain26-3/env-guard#readme",
+  "bugs": {
+    "url": "https://github.com/quangcaptain26-3/env-guard/issues"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}
